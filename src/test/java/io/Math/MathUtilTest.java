@@ -9,7 +9,7 @@ class MathUtilTest {
 	@Test
 	void test() {
 		MathUtil mathutil = new MathUtil();
-		int expected = 2;
+		int expected = 3;
 		int actual = mathutil.add(1,1);
 		assertEquals(expected,actual);
 	}
