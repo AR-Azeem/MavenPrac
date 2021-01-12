@@ -39,6 +39,12 @@ class MathUtilTest {
 		assertThrows(ArithmeticException.class,()->mathutil.divide(1,0));
 		System.out.println("Hello maven Jenkins");
 	}
+	@Test
+	void testDivide3() {
+		
+		assertThrows(ArithmeticException.class,()->mathutil.divide(1,0));
+		System.out.println("Hello maven Jenkins");
+	}
 	
 	@Test
 	void testDivide1() {
